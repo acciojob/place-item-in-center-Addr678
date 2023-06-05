@@ -1,19 +1,14 @@
-
-/* Your CSS Code here. */
-body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .holder {
-      background-color: lightgray;
-      padding: 20px;
-    }
-
-    .item {
-      background-color: lightblue;
-      padding: 20px;
-    }
+* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-direction:fullscreen;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+	position:center;
+	
+}
+.item{
+	border:1px solid black;
+	
+}
